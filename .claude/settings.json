@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(node --input-type=module --check)",
-      "Bash(node -e \"import\\('./src/app.js'\\).catch\\(e => {console.error\\(e.message\\); process.exit\\(1\\)}\\)\")",
-      "Bash(node -e \"import\\('./src/config/db.js'\\).then\\(m => {console.log\\('db.js ok'\\); process.exit\\(0\\)}\\).catch\\(e => {console.error\\(e.message\\); process.exit\\(1\\)}\\)\")"
-    ]
-  }
-}

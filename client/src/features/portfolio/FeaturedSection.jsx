@@ -132,7 +132,7 @@ export const FeaturedSection = () => {
           return (
             <div
               key={item._id}
-              className="feat-card relative flex-shrink-0 w-screen h-full overflow-hidden cursor-none group"
+              className="feat-card relative flex-shrink-0 w-screen h-full overflow-hidden group"
               data-cursor="art"
               onClick={() => setSelected(item)}
             >

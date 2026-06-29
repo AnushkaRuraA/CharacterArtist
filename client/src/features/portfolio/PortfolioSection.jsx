@@ -114,7 +114,7 @@ const Card = ({ item, index, onClick, className }) => {
   return (
     <div
       ref={cardRef}
-      className={cn(sizeClass, className, 'group relative overflow-hidden cursor-none bg-dark-surface h-full')}
+      className={cn(sizeClass, className, 'group relative overflow-hidden bg-dark-surface h-full')}
       style={{ opacity: 0 }}
       data-cursor="art"
       onClick={() => onClick(item)}

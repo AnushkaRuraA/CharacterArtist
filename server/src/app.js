@@ -60,6 +60,7 @@ app.use(`${v1}/contact`, contactRoutes);
 app.use(`${v1}/settings`, settingsRoutes);
 app.use(`${v1}/process`, processRoutes);
 
+app.get('/', (req, res) => res.json({ status: 'ok', message: '✅ Backend is running!' }));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 app.use(errorHandler);

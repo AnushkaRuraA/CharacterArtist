@@ -62,8 +62,7 @@ export const CustomCursor = () => {
     <>
       <div
         ref={cursorRef}
-        className="fixed top-0 left-0 w-2.5 h-2.5 rounded-full bg-amber pointer-events-none z-[99999] -translate-x-1/2 -translate-y-1/2"
-        style={{ mixBlendMode: 'difference' }}
+        className="fixed top-0 left-0 w-2.5 h-2.5 rounded-full bg-amber pointer-events-none z-[99999] -translate-x-1/2 -translate-y-1/2 shadow-[0_0_10px_rgba(255,107,26,0.8)]"
       />
       <div
         ref={followerRef}
